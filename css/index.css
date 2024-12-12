@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    max-width:100%;
+}
+
+body{
+    height: 1200px;
+}
+header,footer{ 
+    background-color: hsl(216, 68%, 52%);
+    height: 200px;
+    background: linear-gradient(to right, hsl(216, 68%, 52%) 0%, hsl(297, 34%, 26%) 50%, hsl(204, 61%, 22%) 100%);
+}
+
+@keyframes fade-in {
+
+    0% {
+
+        opacity: 0;
+
+    }
+
+    100% {
+
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes fade-out {
+
+    0% {
+
+        opacity: 1;
+
+    }
+
+    100% {
+
+        opacity: 0;
+
+    }
+
+}
+
+
+.botao-topo img{
+
+    width: 70px;
+
+    background-color: rgba(189, 212, 213, 0.7);
+
+    box-shadow : 5px 6px 10px rgb(93, 104, 103);
+
+    border-radius: 15px;
+
+}
+
+.botao-topo{
+
+    visibility: hidden;
+
+    bottom: 110px;
+
+}
+
+.botao-topo-mostrar{
+
+    visibility: visible;
+
+    animation: fade-in 0.7s ease-in forwards;
+
+}
+
+.botao-topo-esconder{
+
+    animation: fade-out 1s ease-out forwards;
+
+}
+
+footer{
+    height: 100px;
+
+}
+
+body{background-color: rgb(82, 107, 189);
+}
+
+.parte1{
+    /* height: 900px; */
+}
+
+.parte2{
+    /*height: 400px; */
+    padding-top: 80px;
+    text-align: center;
+}
+
+.imagem-logo{
+    height: 150px;
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin-top: 20px;
+    box-shadow: 2px 5px 7px white;
+}
+
+.titulo, .subtitulo{
+font-family: "Roboto", sans-serif;     
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+font-size: 40px;
+color: rgb(197, 211, 223);
+text-align: center;
+}
+
+.subtitulo{
+    font-size: 25px;
+}
+
+.navbar{
+    background: linear-gradient(to top, hsl(216, 68%, 52%) 0%, hsl(296, 21%, 31%) 50%, hsl(204, 61%, 22%) 100%);
+    box-shadow: 5px 10px 15px pink;
+    width: 100%;
+}
+
+.dropdown-menu{
+    background: rgba(221, 212, 212, 0.507);
+    color: rgb(214, 196, 169);
+}
+
+.dropdown-item{ 
+    color: white;
+}
+.nav-link{
+    margin-left: 50px;
+    background-color:  rgb(138, 138, 212);
+    color: rgb(168, 69, 143);
+    border-radius: 10px;
+    width:150px;
+}
+
+.nav-link:hover{
+    background-color: rgb(189, 156, 219);
+    box-shadow: 5px 5px 10px rgb(204, 209, 228);
+    scale: 1.1;
+}
+
+.redes-sociais img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.tipo-fonte1{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.tipo-fonte2{
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.parte1{
+    padding-top: 80px;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+/* .card:hover{
+    scale: 1.2;
+}*/
+
+.zoom-restringido{
+
+    overflow: hidden; /*aumenta a imagem não ultrapassando a dimensão do elemento pai*/
+
+}
+
+.card img{
+    width: 100%;
+}
+.card:hover img{
+    scale: 1.05;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 50px;
+}
+.carousel-item img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapa{
+
+    border-style: 0;
+    width: 100%;
+    height: 600px;
+
+}
+
+.formulario{
+    padding: 10px;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(223, 156, 203);
+    border-radius: 10px;
+}
+
+.botao-enviar{
+    box-shadow: 3px 5px 7px black;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:599px)
+{
+    .imagem-logo{
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}

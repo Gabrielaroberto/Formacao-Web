@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Life Studio</title>
+    <meta name="description" content="Escola de yoga">
+
+    <link rel="shortcut icon" href="./img/minilogo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/index.css">  
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <div class="row align-items-center">
+              <div class="col-3">
+                <p align="center"><img src="../img/minilogo.png" class="imagem-logo" alt="logotipo do pojeto indefinido"></p>
+              </div>
+              <div class="col-6">
+                <p class="titulo">Yoga Life</p>
+                <p class="subtitulo">Estilo de vida saudável</p>
+              </div>
+
+            </div>
+          </div>
+
+    </header>
+
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="mx-auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aulas.html">Aulas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./horarios.html">Horários</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#">Início</a>
+              </li>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./faleconosco.html">Contactos</a></li>
+                  <li><a class="dropdown-item" href="./faleconosco.html">Endereço</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="text-center">
+        <img src="../img/home2.jpeg" class="img-fluid rounded-start">
+              <div class="col-md-6">
+          </div>
+    
+          <div class="parte3">
+            <h3>Telefone</h3>
+            <p>
+              Nossa linha de atendimento está disponível de segunda-feira a sexta-feira, entre às 8 e 17 horas.
+              Número: 25448659
+            </p>
+
+            <div id="contatos" style="padding-top: 80px;"> </div>
+
+            <div class="card mb-3" style="max-width: 100%;">
+
+              <div class="row g-0">
+
+                <div class="col-md-6">
+
+                  <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.108639042203!2d-8.648719423442527!3d41.15398071043968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24654d3df56741%3A0xeb059560b3d85656!2sYoga%20Studio!5e0!3m2!1spt-PT!2spt!4v1733259897654!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+                  </iframe>
+
+                  </div>
+
+                <div class="col-md-6">
+
+                  <div class="card-body">
+
+                    <h3 class="card-title">Envie sua mensagem</h3>
+
+                    <div class="formulario">
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+
+                      <!-- CONFIGURAÇÕES PARA O FORMULÁRIO -->
+
+                      <input type="hidden" name="accessKey" value="7e3eb382-eb04-4378-b855-36c00e3017c1"> <!--Chave de configuração-->
+
+                      <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/html/faleconosco.html"> <!-- URL da página a ser re-direcionada após envio da informação-->
+
+                      <input type="hidden" name="replyTo" value="@">
+
+                      <input type="text" name="honeypot" style="display: none;">
+
+                      <!-- FIM DAS CONFIGURAÇÕES PARA O FORMULÁRIO -->
+                       <!--                      <div class="form-floating mb-3">-->
+
+                        
+                        <div class= "form-floating mb-2">
+                          <input type="nome" class="form-control" id="nome"
+                          placeholder="Nome" name="$nome">
+                          <label for="floatingInput">Nome</label>
+                          </div>
+
+                      <div class="form-floating mb-2">
+                        <input type="email" class="form-control" id="email"
+                        placeholder="Email" name="$email">
+                        <label for="floatingInput">Email</label>
+                        </div>
+
+                        <div class= "form-floating mb-2">
+                          <input type="telefone" class="form-control" id="telefone"
+                          placeholder="Telefone" name="$telefone" pattern="[0-9]{9}">
+                          <label for="floatingInput">Telefone</label>
+                          </div>
+                        
+                      <div class= "form-floating mb-2">
+                      <label for="mensagem">Mensagem:</label>
+                      <textarea class="form-control" placeholder="Mensagem" id="floatingTextarea2"
+                      style="height: 100px" name="$mensagem">
+                      </textarea>
+                      <br><br>
+
+                     <!--<input type="date" name="$data" id="data" placeholder="Insira a data" class="form-control">
+                      <br><br>
+                      <input type="time" name="$tempo" id="tempo" placeholder="Insira a hora" class="form-control">
+                      <br><br> --> 
+
+                      <button type="submit" class="btn btn-primary botao-enviar" value="submit">Enviar</button>
+                    </form>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            
+    </main>
+
+                <footer>
+                  <a href="https://www.instagram.com/yogalivee/" target="_blank" rel="noopener noreferrer">
+                      <img src="../img/insta.jfif"></img>
+                      <p>Instagram</p>
+                  </a>
+                  <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                      <img src="../img/whats.jfif"></img>
+                      <p>whatsapp</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=GMj8VwEX25Y" target="_blank" rel="noopener noreferrer">
+                      <img src="../img/youtube.png"></img>
+                      <p>Youtube</p>
+                  </a>
+              </footer>
+</body>
+</html>
